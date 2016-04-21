@@ -2,7 +2,7 @@
 
 Align-f90 is my attempt to add alignment support to Fortran 90 in Emacs.
 
-Installation:
+Usage:
 
     (require 'align-f90)
     (align-f90-load)
