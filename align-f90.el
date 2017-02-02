@@ -88,6 +88,7 @@
                '(f90-declaration
                  (regexp . "[^ 	\n]\\(\\s-*\\)::\\(\\s-*\\)\\([^ 	\n]\\|$\\)")
                  (group 1 2)
+                 (separate . "entire")
                  (modes . align-f90-modes)
                  (justify . t)))
 
