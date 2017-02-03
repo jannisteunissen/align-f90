@@ -79,7 +79,7 @@
 
   (add-to-list 'align-rules-list
                '(f90-assignment
-                 (regexp . "[^=<>/ 	\n]\\(\\s-*[=<>/]*\\)=\\(\\s-*\\)\\([^= 	\n]\\|$\\)")
+                 (regexp . "[^=<>/ 	\n]\\(\\s-*[=<>/]*\\)=[>]?\\(\\s-*\\)\\([^= 	\n]\\|$\\)")
                  (group 1 2)
                  (modes . align-f90-modes)
                  (justify . t)))
